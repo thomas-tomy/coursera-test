@@ -3,12 +3,14 @@
     <head>
         <meta charset="utf-8">
         <script src="angular.min.js"></script>
-        <script src="angular.app"></script>
+        <script src="app.js"></script>
         <title>hello world </title>
     </head>
     <body>
+        <h2>my first app</h2>
         <div ng-controller="myfirstcontroller">
-
+            <input type="text" ng-model="name">
+            inside my input is:{{name}}
         </div>
     </body>
 </html>
